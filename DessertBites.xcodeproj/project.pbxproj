@@ -7,18 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8648E67B2D36C7E1005F4897 /* PuzzleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648E6782D36C7E1005F4897 /* PuzzleGameView.swift */; };
+		8648E67C2D36C7E1005F4897 /* PuzzleGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648E6792D36C7E1005F4897 /* PuzzleGameModel.swift */; };
+		8648E67D2D36C7E1005F4897 /* PuzzleGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648E67A2D36C7E1005F4897 /* PuzzleGameViewModel.swift */; };
+		865E3E022D3941BC001222F5 /* BitesLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3DFF2D3941BC001222F5 /* BitesLoseView.swift */; };
+		865E3E032D3941BC001222F5 /* BitesLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3E002D3941BC001222F5 /* BitesLoseModel.swift */; };
+		865E3E042D3941BC001222F5 /* BitesLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3E012D3941BC001222F5 /* BitesLoseViewModel.swift */; };
+		865E3E092D3945AE001222F5 /* BitesPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3E062D3945AE001222F5 /* BitesPauseView.swift */; };
+		865E3E0A2D3945AE001222F5 /* BitesPauseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3E072D3945AE001222F5 /* BitesPauseModel.swift */; };
+		865E3E0B2D3945AE001222F5 /* BitesPauseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3E082D3945AE001222F5 /* BitesPauseViewModel.swift */; };
+		865E3E0E2D395E1D001222F5 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E3E0D2D395E1D001222F5 /* UserDefaultsManager.swift */; };
 		86F853212D35386000DBB685 /* DessertBitesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853202D35386000DBB685 /* DessertBitesApp.swift */; };
-		86F853232D35386000DBB685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853222D35386000DBB685 /* ContentView.swift */; };
 		86F853252D35386100DBB685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F853242D35386100DBB685 /* Assets.xcassets */; };
 		86F853282D35386100DBB685 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F853272D35386100DBB685 /* Preview Assets.xcassets */; };
+		86F853362D3538D700DBB685 /* BitesImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853352D3538D700DBB685 /* BitesImageName.swift */; };
+		86F853382D3538F000DBB685 /* BitesCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853372D3538F000DBB685 /* BitesCustomButtons.swift */; };
+		86F8533A2D35390100DBB685 /* BitesTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853392D35390100DBB685 /* BitesTextExtension.swift */; };
+		86F8533C2D35391A00DBB685 /* BitesTextOutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8533B2D35391A00DBB685 /* BitesTextOutlineExtension.swift */; };
+		86F8533F2D353A3000DBB685 /* BowlbyOneSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F8533D2D35398900DBB685 /* BowlbyOneSC-Regular.ttf */; };
+		86F853442D353E4700DBB685 /* BitesLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853412D353E4700DBB685 /* BitesLoadingView.swift */; };
+		86F853452D353E4700DBB685 /* BitesLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853422D353E4700DBB685 /* BitesLoadingModel.swift */; };
+		86F853462D353E4700DBB685 /* BitesLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853432D353E4700DBB685 /* BitesLoadingViewModel.swift */; };
+		86F853482D353E6F00DBB685 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853472D353E6F00DBB685 /* Router.swift */; };
+		86F8534D2D3540F400DBB685 /* BitesLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8534A2D3540F400DBB685 /* BitesLessonView.swift */; };
+		86F8534E2D3540F400DBB685 /* BitesLessonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8534B2D3540F400DBB685 /* BitesLessonModel.swift */; };
+		86F8534F2D3540F400DBB685 /* BitesLessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8534C2D3540F400DBB685 /* BitesLessonViewModel.swift */; };
+		86F853542D35488300DBB685 /* BitesMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853512D35488300DBB685 /* BitesMenuView.swift */; };
+		86F853552D35488300DBB685 /* BitesMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853522D35488300DBB685 /* BitesMenuModel.swift */; };
+		86F853562D35488300DBB685 /* BitesMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853532D35488300DBB685 /* BitesMenuViewModel.swift */; };
+		86F8535B2D355E5700DBB685 /* BitesDifficultyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853582D355E5700DBB685 /* BitesDifficultyView.swift */; };
+		86F8535C2D355E5700DBB685 /* BitesDifficultyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853592D355E5700DBB685 /* BitesDifficultyModel.swift */; };
+		86F8535D2D355E5700DBB685 /* BitesDifficultyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8535A2D355E5700DBB685 /* BitesDifficultyViewModel.swift */; };
+		86F853622D3569D000DBB685 /* BitesChoosePuzzlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8535F2D3569D000DBB685 /* BitesChoosePuzzlesView.swift */; };
+		86F853632D3569D000DBB685 /* BitesChoosePuzzlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853602D3569D000DBB685 /* BitesChoosePuzzlesModel.swift */; };
+		86F853642D3569D000DBB685 /* BitesChoosePuzzlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853612D3569D000DBB685 /* BitesChoosePuzzlesViewModel.swift */; };
+		86F853692D356F0600DBB685 /* BitesSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853662D356F0600DBB685 /* BitesSettingsView.swift */; };
+		86F8536A2D356F0600DBB685 /* BitesSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853672D356F0600DBB685 /* BitesSettingsModel.swift */; };
+		86F8536B2D356F0600DBB685 /* BitesSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853682D356F0600DBB685 /* BitesSettingsViewModel.swift */; };
+		86F853702D358C2200DBB685 /* BitesFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8536D2D358C2200DBB685 /* BitesFavoriteView.swift */; };
+		86F853712D358C2200DBB685 /* BitesFavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8536E2D358C2200DBB685 /* BitesFavoriteModel.swift */; };
+		86F853722D358C2200DBB685 /* BitesFavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F8536F2D358C2200DBB685 /* BitesFavoriteViewModel.swift */; };
+		86F853772D359CAC00DBB685 /* BitesRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853742D359CAC00DBB685 /* BitesRecipeView.swift */; };
+		86F853782D359CAC00DBB685 /* BitesRecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853752D359CAC00DBB685 /* BitesRecipeModel.swift */; };
+		86F853792D359CAC00DBB685 /* BitesRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F853762D359CAC00DBB685 /* BitesRecipeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8648E6782D36C7E1005F4897 /* PuzzleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameView.swift; sourceTree = "<group>"; };
+		8648E6792D36C7E1005F4897 /* PuzzleGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameModel.swift; sourceTree = "<group>"; };
+		8648E67A2D36C7E1005F4897 /* PuzzleGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleGameViewModel.swift; sourceTree = "<group>"; };
+		865E3DFF2D3941BC001222F5 /* BitesLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLoseView.swift; sourceTree = "<group>"; };
+		865E3E002D3941BC001222F5 /* BitesLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLoseModel.swift; sourceTree = "<group>"; };
+		865E3E012D3941BC001222F5 /* BitesLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLoseViewModel.swift; sourceTree = "<group>"; };
+		865E3E062D3945AE001222F5 /* BitesPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesPauseView.swift; sourceTree = "<group>"; };
+		865E3E072D3945AE001222F5 /* BitesPauseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesPauseModel.swift; sourceTree = "<group>"; };
+		865E3E082D3945AE001222F5 /* BitesPauseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesPauseViewModel.swift; sourceTree = "<group>"; };
+		865E3E0D2D395E1D001222F5 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		86F8531D2D35386000DBB685 /* DessertBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DessertBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F853202D35386000DBB685 /* DessertBitesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertBitesApp.swift; sourceTree = "<group>"; };
-		86F853222D35386000DBB685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86F853242D35386100DBB685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F853272D35386100DBB685 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86F853352D3538D700DBB685 /* BitesImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesImageName.swift; sourceTree = "<group>"; };
+		86F853372D3538F000DBB685 /* BitesCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesCustomButtons.swift; sourceTree = "<group>"; };
+		86F853392D35390100DBB685 /* BitesTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesTextExtension.swift; sourceTree = "<group>"; };
+		86F8533B2D35391A00DBB685 /* BitesTextOutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesTextOutlineExtension.swift; sourceTree = "<group>"; };
+		86F8533D2D35398900DBB685 /* BowlbyOneSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BowlbyOneSC-Regular.ttf"; sourceTree = "<group>"; };
+		86F8533E2D35399000DBB685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86F853412D353E4700DBB685 /* BitesLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLoadingView.swift; sourceTree = "<group>"; };
+		86F853422D353E4700DBB685 /* BitesLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLoadingModel.swift; sourceTree = "<group>"; };
+		86F853432D353E4700DBB685 /* BitesLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLoadingViewModel.swift; sourceTree = "<group>"; };
+		86F853472D353E6F00DBB685 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		86F8534A2D3540F400DBB685 /* BitesLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLessonView.swift; sourceTree = "<group>"; };
+		86F8534B2D3540F400DBB685 /* BitesLessonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLessonModel.swift; sourceTree = "<group>"; };
+		86F8534C2D3540F400DBB685 /* BitesLessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesLessonViewModel.swift; sourceTree = "<group>"; };
+		86F853512D35488300DBB685 /* BitesMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesMenuView.swift; sourceTree = "<group>"; };
+		86F853522D35488300DBB685 /* BitesMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesMenuModel.swift; sourceTree = "<group>"; };
+		86F853532D35488300DBB685 /* BitesMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesMenuViewModel.swift; sourceTree = "<group>"; };
+		86F853582D355E5700DBB685 /* BitesDifficultyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesDifficultyView.swift; sourceTree = "<group>"; };
+		86F853592D355E5700DBB685 /* BitesDifficultyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesDifficultyModel.swift; sourceTree = "<group>"; };
+		86F8535A2D355E5700DBB685 /* BitesDifficultyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesDifficultyViewModel.swift; sourceTree = "<group>"; };
+		86F8535F2D3569D000DBB685 /* BitesChoosePuzzlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesChoosePuzzlesView.swift; sourceTree = "<group>"; };
+		86F853602D3569D000DBB685 /* BitesChoosePuzzlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesChoosePuzzlesModel.swift; sourceTree = "<group>"; };
+		86F853612D3569D000DBB685 /* BitesChoosePuzzlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesChoosePuzzlesViewModel.swift; sourceTree = "<group>"; };
+		86F853662D356F0600DBB685 /* BitesSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesSettingsView.swift; sourceTree = "<group>"; };
+		86F853672D356F0600DBB685 /* BitesSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesSettingsModel.swift; sourceTree = "<group>"; };
+		86F853682D356F0600DBB685 /* BitesSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesSettingsViewModel.swift; sourceTree = "<group>"; };
+		86F8536D2D358C2200DBB685 /* BitesFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesFavoriteView.swift; sourceTree = "<group>"; };
+		86F8536E2D358C2200DBB685 /* BitesFavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesFavoriteModel.swift; sourceTree = "<group>"; };
+		86F8536F2D358C2200DBB685 /* BitesFavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesFavoriteViewModel.swift; sourceTree = "<group>"; };
+		86F853742D359CAC00DBB685 /* BitesRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesRecipeView.swift; sourceTree = "<group>"; };
+		86F853752D359CAC00DBB685 /* BitesRecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesRecipeModel.swift; sourceTree = "<group>"; };
+		86F853762D359CAC00DBB685 /* BitesRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitesRecipeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +111,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8648E6772D36C7D4005F4897 /* PuzzleGameModule */ = {
+			isa = PBXGroup;
+			children = (
+				8648E6782D36C7E1005F4897 /* PuzzleGameView.swift */,
+				8648E6792D36C7E1005F4897 /* PuzzleGameModel.swift */,
+				8648E67A2D36C7E1005F4897 /* PuzzleGameViewModel.swift */,
+			);
+			path = PuzzleGameModule;
+			sourceTree = "<group>";
+		};
+		865E3DF82D394159001222F5 /* BitesLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				865E3DFF2D3941BC001222F5 /* BitesLoseView.swift */,
+				865E3E002D3941BC001222F5 /* BitesLoseModel.swift */,
+				865E3E012D3941BC001222F5 /* BitesLoseViewModel.swift */,
+			);
+			path = BitesLoseModule;
+			sourceTree = "<group>";
+		};
+		865E3E052D3945A3001222F5 /* BitesPauseModule */ = {
+			isa = PBXGroup;
+			children = (
+				865E3E062D3945AE001222F5 /* BitesPauseView.swift */,
+				865E3E072D3945AE001222F5 /* BitesPauseModel.swift */,
+				865E3E082D3945AE001222F5 /* BitesPauseViewModel.swift */,
+			);
+			path = BitesPauseModule;
+			sourceTree = "<group>";
+		};
+		865E3E0C2D395E0A001222F5 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				865E3E0D2D395E1D001222F5 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
 		86F853142D35386000DBB685 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +168,22 @@
 		86F8531F2D35386000DBB685 /* DessertBites */ = {
 			isa = PBXGroup;
 			children = (
+				86F8533E2D35399000DBB685 /* Info.plist */,
 				86F853202D35386000DBB685 /* DessertBitesApp.swift */,
-				86F853222D35386000DBB685 /* ContentView.swift */,
+				865E3E052D3945A3001222F5 /* BitesPauseModule */,
+				865E3DF82D394159001222F5 /* BitesLoseModule */,
+				8648E6772D36C7D4005F4897 /* PuzzleGameModule */,
+				86F853732D359C9E00DBB685 /* BitesRecipeModule */,
+				86F8536C2D358C0F00DBB685 /* BitesFavoriteModule */,
+				86F853652D356EF200DBB685 /* BitesSettingsModule */,
+				86F8535E2D3569AB00DBB685 /* BitesChoosePuzzlesModule */,
+				86F853572D355E2F00DBB685 /* BitesDifficultyModule */,
+				86F853502D35486D00DBB685 /* BitesMenuModule */,
+				86F853492D3540D600DBB685 /* BitesLessonModule */,
+				86F853402D353C6800DBB685 /* BitesLoadingModule */,
+				86F8532F2D35389200DBB685 /* BitesExtensions */,
+				86F8532E2D35388200DBB685 /* BitesHelpers */,
+				865E3E0C2D395E0A001222F5 /* UserDefaultsManager */,
 				86F853242D35386100DBB685 /* Assets.xcassets */,
 				86F853262D35386100DBB685 /* Preview Content */,
 			);
@@ -65,6 +196,146 @@
 				86F853272D35386100DBB685 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86F8532E2D35388200DBB685 /* BitesHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				86F853322D3538AF00DBB685 /* BitesCustomButtons */,
+				86F853312D3538A800DBB685 /* BitesFonts */,
+				86F853302D3538A300DBB685 /* BitesImageName */,
+			);
+			path = BitesHelpers;
+			sourceTree = "<group>";
+		};
+		86F8532F2D35389200DBB685 /* BitesExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				86F853342D3538C100DBB685 /* BitesTextOutlineExtension */,
+				86F853332D3538BB00DBB685 /* BitesTextExtension */,
+			);
+			path = BitesExtensions;
+			sourceTree = "<group>";
+		};
+		86F853302D3538A300DBB685 /* BitesImageName */ = {
+			isa = PBXGroup;
+			children = (
+				86F853352D3538D700DBB685 /* BitesImageName.swift */,
+			);
+			path = BitesImageName;
+			sourceTree = "<group>";
+		};
+		86F853312D3538A800DBB685 /* BitesFonts */ = {
+			isa = PBXGroup;
+			children = (
+				86F8533D2D35398900DBB685 /* BowlbyOneSC-Regular.ttf */,
+			);
+			path = BitesFonts;
+			sourceTree = "<group>";
+		};
+		86F853322D3538AF00DBB685 /* BitesCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				86F853372D3538F000DBB685 /* BitesCustomButtons.swift */,
+			);
+			path = BitesCustomButtons;
+			sourceTree = "<group>";
+		};
+		86F853332D3538BB00DBB685 /* BitesTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86F853392D35390100DBB685 /* BitesTextExtension.swift */,
+			);
+			path = BitesTextExtension;
+			sourceTree = "<group>";
+		};
+		86F853342D3538C100DBB685 /* BitesTextOutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86F8533B2D35391A00DBB685 /* BitesTextOutlineExtension.swift */,
+			);
+			path = BitesTextOutlineExtension;
+			sourceTree = "<group>";
+		};
+		86F853402D353C6800DBB685 /* BitesLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F853412D353E4700DBB685 /* BitesLoadingView.swift */,
+				86F853422D353E4700DBB685 /* BitesLoadingModel.swift */,
+				86F853432D353E4700DBB685 /* BitesLoadingViewModel.swift */,
+				86F853472D353E6F00DBB685 /* Router.swift */,
+			);
+			path = BitesLoadingModule;
+			sourceTree = "<group>";
+		};
+		86F853492D3540D600DBB685 /* BitesLessonModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F8534A2D3540F400DBB685 /* BitesLessonView.swift */,
+				86F8534B2D3540F400DBB685 /* BitesLessonModel.swift */,
+				86F8534C2D3540F400DBB685 /* BitesLessonViewModel.swift */,
+			);
+			path = BitesLessonModule;
+			sourceTree = "<group>";
+		};
+		86F853502D35486D00DBB685 /* BitesMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F853512D35488300DBB685 /* BitesMenuView.swift */,
+				86F853522D35488300DBB685 /* BitesMenuModel.swift */,
+				86F853532D35488300DBB685 /* BitesMenuViewModel.swift */,
+			);
+			path = BitesMenuModule;
+			sourceTree = "<group>";
+		};
+		86F853572D355E2F00DBB685 /* BitesDifficultyModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F853582D355E5700DBB685 /* BitesDifficultyView.swift */,
+				86F853592D355E5700DBB685 /* BitesDifficultyModel.swift */,
+				86F8535A2D355E5700DBB685 /* BitesDifficultyViewModel.swift */,
+			);
+			path = BitesDifficultyModule;
+			sourceTree = "<group>";
+		};
+		86F8535E2D3569AB00DBB685 /* BitesChoosePuzzlesModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F8535F2D3569D000DBB685 /* BitesChoosePuzzlesView.swift */,
+				86F853602D3569D000DBB685 /* BitesChoosePuzzlesModel.swift */,
+				86F853612D3569D000DBB685 /* BitesChoosePuzzlesViewModel.swift */,
+			);
+			path = BitesChoosePuzzlesModule;
+			sourceTree = "<group>";
+		};
+		86F853652D356EF200DBB685 /* BitesSettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F853662D356F0600DBB685 /* BitesSettingsView.swift */,
+				86F853672D356F0600DBB685 /* BitesSettingsModel.swift */,
+				86F853682D356F0600DBB685 /* BitesSettingsViewModel.swift */,
+			);
+			path = BitesSettingsModule;
+			sourceTree = "<group>";
+		};
+		86F8536C2D358C0F00DBB685 /* BitesFavoriteModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F8536D2D358C2200DBB685 /* BitesFavoriteView.swift */,
+				86F8536E2D358C2200DBB685 /* BitesFavoriteModel.swift */,
+				86F8536F2D358C2200DBB685 /* BitesFavoriteViewModel.swift */,
+			);
+			path = BitesFavoriteModule;
+			sourceTree = "<group>";
+		};
+		86F853732D359C9E00DBB685 /* BitesRecipeModule */ = {
+			isa = PBXGroup;
+			children = (
+				86F853742D359CAC00DBB685 /* BitesRecipeView.swift */,
+				86F853752D359CAC00DBB685 /* BitesRecipeModel.swift */,
+				86F853762D359CAC00DBB685 /* BitesRecipeViewModel.swift */,
+			);
+			path = BitesRecipeModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F8533F2D353A3000DBB685 /* BowlbyOneSC-Regular.ttf in Resources */,
 				86F853282D35386100DBB685 /* Preview Assets.xcassets in Resources */,
 				86F853252D35386100DBB685 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +409,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F853232D35386000DBB685 /* ContentView.swift in Sources */,
+				86F853382D3538F000DBB685 /* BitesCustomButtons.swift in Sources */,
+				86F853442D353E4700DBB685 /* BitesLoadingView.swift in Sources */,
+				86F853452D353E4700DBB685 /* BitesLoadingModel.swift in Sources */,
+				86F853772D359CAC00DBB685 /* BitesRecipeView.swift in Sources */,
+				86F853782D359CAC00DBB685 /* BitesRecipeModel.swift in Sources */,
+				86F853792D359CAC00DBB685 /* BitesRecipeViewModel.swift in Sources */,
+				865E3E0E2D395E1D001222F5 /* UserDefaultsManager.swift in Sources */,
+				86F853462D353E4700DBB685 /* BitesLoadingViewModel.swift in Sources */,
+				86F8533C2D35391A00DBB685 /* BitesTextOutlineExtension.swift in Sources */,
+				86F8534D2D3540F400DBB685 /* BitesLessonView.swift in Sources */,
+				86F853692D356F0600DBB685 /* BitesSettingsView.swift in Sources */,
+				86F8536A2D356F0600DBB685 /* BitesSettingsModel.swift in Sources */,
+				86F8536B2D356F0600DBB685 /* BitesSettingsViewModel.swift in Sources */,
+				86F8534E2D3540F400DBB685 /* BitesLessonModel.swift in Sources */,
+				86F8534F2D3540F400DBB685 /* BitesLessonViewModel.swift in Sources */,
+				86F8535B2D355E5700DBB685 /* BitesDifficultyView.swift in Sources */,
+				86F8535C2D355E5700DBB685 /* BitesDifficultyModel.swift in Sources */,
+				86F8535D2D355E5700DBB685 /* BitesDifficultyViewModel.swift in Sources */,
+				86F853362D3538D700DBB685 /* BitesImageName.swift in Sources */,
+				86F853702D358C2200DBB685 /* BitesFavoriteView.swift in Sources */,
+				86F853712D358C2200DBB685 /* BitesFavoriteModel.swift in Sources */,
+				86F853722D358C2200DBB685 /* BitesFavoriteViewModel.swift in Sources */,
+				86F853542D35488300DBB685 /* BitesMenuView.swift in Sources */,
+				86F853622D3569D000DBB685 /* BitesChoosePuzzlesView.swift in Sources */,
+				86F853632D3569D000DBB685 /* BitesChoosePuzzlesModel.swift in Sources */,
+				86F853642D3569D000DBB685 /* BitesChoosePuzzlesViewModel.swift in Sources */,
+				86F853552D35488300DBB685 /* BitesMenuModel.swift in Sources */,
+				865E3E092D3945AE001222F5 /* BitesPauseView.swift in Sources */,
+				865E3E0A2D3945AE001222F5 /* BitesPauseModel.swift in Sources */,
+				865E3E0B2D3945AE001222F5 /* BitesPauseViewModel.swift in Sources */,
+				8648E67B2D36C7E1005F4897 /* PuzzleGameView.swift in Sources */,
+				8648E67C2D36C7E1005F4897 /* PuzzleGameModel.swift in Sources */,
+				8648E67D2D36C7E1005F4897 /* PuzzleGameViewModel.swift in Sources */,
+				86F853562D35488300DBB685 /* BitesMenuViewModel.swift in Sources */,
+				865E3E022D3941BC001222F5 /* BitesLoseView.swift in Sources */,
+				865E3E032D3941BC001222F5 /* BitesLoseModel.swift in Sources */,
+				865E3E042D3941BC001222F5 /* BitesLoseViewModel.swift in Sources */,
+				86F8533A2D35390100DBB685 /* BitesTextExtension.swift in Sources */,
 				86F853212D35386000DBB685 /* DessertBitesApp.swift in Sources */,
+				86F853482D353E6F00DBB685 /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +585,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DessertBites/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +615,7 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DessertBites/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
